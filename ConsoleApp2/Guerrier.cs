@@ -7,6 +7,8 @@ namespace ConsoleApp2
     
     public class Guerrier : Personnages 
     {
+     
+
         public Guerrier(string name):base(name)
         {
             pv = 8;
