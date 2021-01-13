@@ -4,22 +4,22 @@ using System.Text;
 
 namespace ConsoleApp2
 {
-    
-    public class Guerrier : Personnages 
+
+    public class Chasseur : Personnages
     {
-        public Guerrier(string name):base(name)
+        public Chasseur(string name) : base(name)
         {
-            pv = 8;
-            atck = 3;
+            pv = 6;
+            atck = 4;
         }
-        
-        
+
+       
         public override void Deplacement()
         {
 
         }
 
     }
-    
-     
+
+
 }
